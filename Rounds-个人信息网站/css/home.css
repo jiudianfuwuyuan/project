@@ -1,0 +1,23 @@
+.home-title{width: 100%;height: 40px;background-color: #dbd4c2;border-top-left-radius: 10px;border-top-right-radius: 10px;}
+.home-title span{display: block;width: 150px;height: 40px;line-height: 40px;margin-left: 190px;font-size: 1.6rem;font-weight: 700;color: #e76f61;}
+.home-content{background-color: #f7f4e3;width: 1260px;height: 750px;background: url('../images/bg-00.png') 0 0 no-repeat;position: relative;}
+.home-content-one{position: absolute;top: 40px;left: 210px;width: 550px;height: 670px;background-color: rgba(252, 243, 213, 0.3);text-align: center;border-radius: 5px;}
+.home-content-one p{margin-top: 15px;font-size: 1.2rem;color: #33322d;font-family : "Microsoft YaHei";}
+.home-content-one p:nth-child(1){font-size: 1.7rem;color: #9e937d;}
+.home-content-one p:nth-child(3){margin-top: 30px;}
+.home-content-two{position: absolute;top: 40px;right: 170px;width: 220px;height: 220px;background-color: rgba(252, 243, 213, 0.3);border-radius: 5px;}
+.home-content-two p{margin-top: 10px;font-size: 1.5rem;text-align: center;color: #9e937d;}
+.home-content-two table{margin-top: 3px;margin-left: 35px;}
+.home-content-two th{padding-top: 5px;font-size: 1.2rem;padding-left: 5px;}
+.home-content-therr{position: absolute;top: 285px;right: 170px;width: 220px;height: 120px;background-color: rgba(252, 243, 213, 0.3);border-radius: 5px;}
+.home-content-therr p{margin-top: 10px;font-size: 1.5rem;text-align: center;color: #9e937d;}
+.home-content-therr a{display: inline-block;text-align: center;margin-top: 7px;margin-left: 15px;font-size: 1.2rem;color: #333;}
+.home-content-five{position: absolute;top: 430px;right: 170px;width: 220px;height: 280px;background-color: rgba(252, 243, 213, 0.3);border-radius: 5px;}
+.home-content-five p{margin-top: 10px;font-size: 1.5rem;text-align: center;color: #9e937d;}
+.home-content-five-top{margin-top: 5px;width: 100%;height: 100px;position: relative;}
+.home-content-five-top div:nth-child(1){border: 1px solid wheat;position: absolute;top: 0;left: 20px;width: 80px;height: 100px;}
+.home-content-five-top div:nth-child(2){border: 1px solid wheat;position: absolute;top: 0;right: 20px;width: 80px;height: 100px;}
+.home-content-five-top img{width: 80px;height: 100px;}
+.home-content-five-bot{width: 100%;height: 130px;position: relative;}
+.home-content-five-bot div{border: 1px solid wheat;position: absolute;top: 10px;left: 20px;width: 180px;height: 110px;    }
+.home-content-five-bot div img{width: 180px;height: 110px;}

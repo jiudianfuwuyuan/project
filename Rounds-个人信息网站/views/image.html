@@ -1,0 +1,12 @@
+<div class="image-title">
+    <span>我的图片</span>
+</div>
+<div class="image-content">
+    <ul class="image-content-ul">
+        <li ng-repeat="count in counts" ng-click="select(count)"><img src="images/me/{{count}}.jpg" alt="图片出错~\(≧▽≦)/~啦啦啦"></li>
+    </ul>
+    <div class="image-content-popup" ng-model="popup" ng-show="popup">
+        <img src="images/me/{{imgCount}}.jpg" alt="图片出错~\(≧▽≦)/~啦啦啦">
+        <span class="image-content-popup-back" ng-click="popup=false">关闭</span>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/01.ico" media="screen" />
+    <meta name="Keywords" content="$SiteKeywords" />
+    <meta name="Description" content="$SiteDescription" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="author" content="王园园">
+    <title>园园</title>
+    <script src="js/comm/jquery-3.1.0.js"></script>
+    <link rel="stylesheet" href="css/list/globle.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body ng-app="App">
+    <header>
+        <div id="header-images">
+        </div>
+    </header>
+    <main>
+        <div class="nav">
+            <ul>
+                <li><a ui-sref="home">个人主页</a></li>
+                <li><a ui-sref="image">我的图片</a></li>
+                <li><a ui-sref="book">推荐书目</a></li>
+                <li><a ui-sref="miusc">音乐视频</a></li>
+                <li><a ui-sref="me">了解自我</a></li>
+            </ul>
+        </div>
+        <div class="content" ui-view>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            学习在于积累，滴水可以石穿。学而不思则罔，思而不学则殆
+        </div>
+    </footer>
+</body>
+<script src="js/comm/index.js"></script>
+<script src="js/comm/header.js"></script>
+<script src="js/style/main.js"></script>
+<script src="js/comm/angular.js"></script>
+<script src="js/comm/angular-ui-router.js"></script>
+<script src="content/controller.js"></script>
+
+</html>

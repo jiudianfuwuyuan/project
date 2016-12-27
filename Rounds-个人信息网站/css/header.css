@@ -1,0 +1,8 @@
+html{font-size: 14px;font-family: arial;}
+body{min-width: 1280px;box-sizing: border-box;}
+header{width: 100%;}
+#header-images{width: 1620px;height: 480px;margin: 0 auto;position: relative;overflow: hidden;box-shadow: 0 0 50px lightseagreen;}
+.one{position: absolute;border: 1px solid white;background-image: url('../images/header/1.jpeg');}
+.two{position: absolute;border: 1px solid white;background-image: url('../images/header/2.jpeg');}
+
+
