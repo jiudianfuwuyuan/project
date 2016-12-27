@@ -1,0 +1,65 @@
+@charset "utf-8";
+body{margin: 0;padding: 0;width: 100%;min-width: 1200px;}
+ul{margin: 0;padding: 0;list-style: none;}
+.header{margin: 0;height: 340px;width: 100%;min-width: 1200px;background-image: url(../images/paging/14631186292003542117.jpg); padding-top: 40px;background-repeat: no-repeat;}
+.header_nav{width: 1200px;height: 77px;margin: 0px auto; position: relative;}
+.logo{z-index: 1000;position: absolute;left: 0;top: -35px;}
+.toolbar{list-style: none;position: absolute;right: 16px;top: -27px;}
+.toolbar li{float: left;color: #D9D9D9;word-spacing: 1px;vertical-align:top;}
+.slash{margin-top: 2px;}
+.toolbar li a{font-size: 13px;color: #D9D9D9;text-decoration: none;}
+nav{width: calc(50vw + 530px);min-width: 1200px;height: 35px;background-color: #2D3440;margin: 35px 0 0 60px;position: relative;}
+nav ul{margin: 0;padding: 0;margin-left: 280px;}
+nav ul li{list-style: none;float: left;line-height: 36px;margin: 0 20px;}
+nav ul li a{color: #EAEAEA;text-decoration: none;}
+nav ul li a:hover{color: #9A7537;}
+.active{color: #9A7537;}
+.seek{margin: 2px 0 0 4px;position: relative;}
+.grabble{width: 139px;height: 28px;border: none;border-radius: 10px;background-color: #2D415D;padding-left: 10px;font-size: 16px;}
+.search{position: absolute;top:4px;right: 12px;}
+.comboBox{background-color: rgb(169, 188, 222);width: 90px;position: absolute;top: 35px;display: none;}
+.comboBox:nth-of-type(1){left: 359px;}
+.comboBox:nth-of-type(2){left: 463px;}
+.comboBox:nth-of-type(3){left: 567px;}
+.comboBox:nth-of-type(4){left: 671px;}
+.comboBox:nth-of-type(5){left: 775px;}
+.comboBox:nth-of-type(6){left: 879px;}
+.comboBox div{height: 40px;margin-bottom: 2px;background-color: rgb(88, 97, 112);font-size: 13px;text-align: center;line-height: 40px;}
+.comboBox div a{color: rgb(234, 234, 234);text-decoration: none;}
+.comboBox div a:hover{color: #9A7537;}
+.comboBox .last{margin: 0;}
+.contant{width: 1200px;margin: 0 auto;min-height: 525px;}
+.place{height: 16px;padding-top: 15px;margin-bottom: 25px;}
+.place img{float: left;margin-right: 3px;}
+.place ul li{float: left;font-size: 12px;color: #333333;word-spacing: 2px;}
+.place ul li a{text-decoration: none;font-size: 12px;color: #737373;}
+/*.contant_detail{padding-bottom: 24px;}*/
+.contant_nav{width: 238px;float: left;background-color: #F1F1F1;}
+.nav_header{width: 238px;height: 85px;background-image:url(../images/paging/sidebar_bck.png);}
+.nav_header img{margin: 20px 0 0 20px;}
+.contant_list{padding: 22px 15px 28px;border: 1px solid #E0E0E0;width: 206px;border-top: none;}
+.contant_list li{height: 34px;border-bottom: 1px solid #DEDEDE;line-height: 34px;position: relative;}
+.bar{display: inline-block;height: 15px;width: 2px;background-color: #8F8F8F;position: absolute;top: 11px;left: 0;}
+.contant_list li a{font-size: 16px;text-decoration: none;color: #000000;margin-left: 7px;}
+.gt{position: absolute;right: 0;top: 0px;color: #8F8F8F;}
+.details{width: 912px;float: right;}
+.details_title{float: left;color: #C28E34;font-size: 36px;margin: 0;line-height: 40px;margin-right: 10px;}
+.details img{margin-top: 2px;}
+.keys{font-size: 24px;color: #9A9A9A;margin: 0;padding: 10px 0;border-bottom: 1px solid #DDDDDD;font-weight: bold;}
+.contus{font-size: 24px;height: 33px;margin: 30px 0 20px;color: #767676;}
+.map{width: 912px;height: 221px;padding-bottom: 43px;box-shadow: 0px 10px 10px #E6E6E6;margin-bottom: 29px;}
+#allmap,#newmap{width: 445px;height: 219px;border: 1px solid #CCCCCC;float: left;margin-right: 38px;}
+.map p{color: #767676;font-size: 14px;margin: 5px 0;}
+.map .site{font-size: 18px;padding-top: 5px;}
+.footer{width: 100%;min-width: 1200px;height: 40px;background-color: #333333;}
+.file{width: 1200px;margin: 0 auto;}
+.file ul{float: left;}
+.file ul li{float: left;font-size: 14px;color: #C3C3C3;word-spacing: 1px;line-height: 39px;}
+.file ul li a{font-size: 12px;color: #C3C3C3;text-decoration: none;}
+.share{float: left;width: 66px;height: 20px;border-left: 1px solid #434343;border-right: 1px solid #434343;margin-left: 20px;padding: 11px 9px 9px 10px;}
+.share a span{display: inline-block;width: 19px;height: 19px;background-image: url(../images/index/link_icon.png);}
+.qq{background-position: -3px -3px;}
+.wei{background-position: -28px -3px;}
+.bo{background-position: -53px -3px;}
+.record{padding-top: 12px;text-align: right;color: #9C9C9C;font-size: 12px;}
+@media (max-width:1000px){.share{display: none;}}
