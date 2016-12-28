@@ -1,0 +1,249 @@
+.about_us{
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+.about_cont{
+    width: 1153px;
+    height: 106px;
+    margin: 70px auto;
+    background-image: url(../images/about/about.jpg);
+    background-size: 100% 100%;
+    padding-top: 54px;
+}
+.about_cont div {
+    width: 191px;
+    height: 53px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    line-height: 54px;
+    color: white;
+    font-size: 16px;
+    background-image: url(../images/news/news_title.png);
+}
+.about_title{
+    width: 100%;
+    background-color: #F7F7F7;
+    margin-top: -70px;
+    height: 284px;
+    padding-top: 130px;
+}
+.about_title div{
+    width: 192px;
+    margin: 0 auto;
+}
+.about_title div img{
+    width: 100%;
+}
+.about_title p{
+    width: 1153px;
+    margin: 60px auto;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666666;
+}
+.about_banner{
+    width: 100%;
+    padding-bottom: 130px;
+    margin-bottom: 120px;
+    background-color: #F7F7F7;
+    position: relative;
+}
+.about_banner ul{
+    width: 1151px;
+    margin: 0 auto;
+    border: 1px solid #DDDDDD;
+}
+.about_banner ul li{
+    width: 384px;
+    float: left;
+    height: 264px;
+}
+.banli1 img{
+    margin: 37px 0 0 42px;
+}
+.banli2{
+    background-color: #E1E1E1;
+}
+.banli2 .ph{
+    text-align: center;
+    margin: 50px 0 28px;
+    font-size: 25px;
+    color: #555555;
+}
+.banli2 .pp{
+    width: 314px;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+    line-height: 28px;
+    margin: 0 auto;
+}
+.about_banner ul .banli3{
+    padding: 30px 56px;
+    width: 270px;
+    height: 200px;
+}
+.about_banner div{
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    margin-left: -46px;
+    left: 50%;
+    bottom: -52px;
+}
+.about_make{
+    width: 1153px;
+    margin: 0 auto;
+}
+.about_contant{
+    width: 480px;
+    padding: 55px 0;
+    float: left;
+}
+.about_p1{
+    color: #555555;
+    font-size:25px;
+    line-height: 60px;
+}
+.about_p2{
+    font-size: 14px;
+    color: #666666;
+    padding: 20px 0;
+    line-height: 30px;
+}
+.about_img{
+    width: 550px;
+    float: right;
+}
+.about_img ul li{
+    float: left;
+    width: 236px;
+    height: 152px;
+    margin-bottom: 10px;
+}
+.about_img ul li:nth-of-type(1){
+    margin-right: 10px;
+}
+.about_img ul li:nth-of-type(3){
+    margin-right: 10px;
+    margin-left: 68px;
+}
+.high_end{
+    width: 100%;
+    background-color: #F7F7F7;
+    margin: 162px 0 0 0;
+    padding: 210px 0 208px;
+    position: relative;
+}
+.high{
+    width: 1153px;
+    margin: 0 auto;
+}
+.high_contant{
+    width: 480px;
+    padding: 55px 0 0;
+    float: right;
+}
+.high_p1{
+    color: #555555;
+    font-size:25px;
+    line-height: 60px;
+}
+.high_p2{
+    font-size: 14px;
+    color: #666666;
+    padding: 20px 0;
+    line-height: 30px;
+}
+.high_img{
+    width: 550px;
+    float: left;
+}
+.high_img ul li{
+    float: left;
+    width: 236px;
+    height: 152px;
+    margin-bottom: 10px;
+}
+.high_img ul li:nth-of-type(1){
+    margin-right: 10px;
+}
+.high_img ul li:nth-of-type(3){
+    margin-right: 10px;
+    margin-left: 68px;
+}
+.high_d1{
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    margin-left: -46px;
+    left: 50%;
+    top: -52px;
+}
+.high_d2{
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    margin-left: -46px;
+    left: 50%;
+    bottom: -52px;
+}
+.about_h1{
+    width: 100%;
+    margin: 89px 0 40px;
+    line-height: 25px;
+}
+.about_h1 .span1{
+    display: inline-block;
+    width: calc(50% - 143px);
+    border-bottom: 1px dotted #B1B1B1;
+    margin-bottom: 10px;
+}
+.about_h1 .span2{
+    display: inline-block;
+    width: 280px;
+    font-size:30px;
+    color: #555555;
+    text-align: center;
+}
+.p_title{
+    width: 920px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #555555;
+    margin: 0 auto;
+    text-align: center;
+}
+.contribute{
+    width: 100%;
+    padding-top: 40px;
+    height: 400px;
+}
+.con_img{
+    width: 1152px;
+    margin: 0 auto;
+}
+.con_img li{
+    float: left;
+}
+.con1{
+    width: 116px;
+    height: 130px;
+    border: 1px solid #A1A1A1;
+    border-right: none;
+    margin-top: 90px;
+}
+.con2{
+     width: 116px;
+    height: 130px;
+    border: 1px solid #A1A1A1;
+    border-left: none;
+    margin-top: 90px;
+}
+.con3{
+    margin-top: 40px;
+    margin-left: 3px;
+}

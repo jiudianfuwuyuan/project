@@ -1,0 +1,276 @@
+.team_banner{
+    width: 100%;
+    min-width: 664px;
+    height: 17.2vw;
+    min-height: 114px;
+    background-image: url(../images/team/group.jpg);
+    background-size: 100% 100%;
+    padding-top: 8.8vw;
+}
+.team_banner div{
+    width: 25%;
+    min-width: 260px;
+    margin: 0 auto;
+}
+.team_banner div img{
+    width: 100%;
+    margin: 1px 0 2.2vw;
+}
+.team_banner div p{
+    text-align: center;
+    color: #ABABAB;
+    font-size: 15px;
+    line-height: 30px;
+}
+@media (max-width:1153px){
+    .team_banner div p{font-size: 12px;}
+}
+.about_h1{
+    width: 100%;
+    margin: 89px 0 40px;
+    line-height: 25px;
+}
+.about_h1 .span1{
+    display: inline-block;
+    width: calc(50% - 63px);
+    border-bottom: 1px dotted #B1B1B1;
+    margin-bottom: 10px;
+}
+.about_h1 .span3{
+    display: inline-block;
+    width: calc(50% - 94px);
+    border-bottom: 1px dotted #B1B1B1;
+    margin-bottom: 10px;
+}
+.about_h1 .span2{
+    display: inline-block;
+    width: 120px;
+    font-size:30px;
+    color: #555555;
+    text-align: center;
+}
+.about_h1 .span4{
+    display: inline-block;
+    width: 180px;
+    font-size:30px;
+    color: #555555;
+    text-align: center;
+}
+.p_title{
+    width: 920px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #555555;
+    margin: 0 auto;
+    text-align: center;
+}
+.clothes{
+    width: 1153px;
+    margin: 79px auto 0;    
+}
+.clothes ul{
+    border: 1px solid #DDDDDD;
+}
+.clothes ul li{
+    float: left;
+    padding: 40px;
+}
+.clothes ul li:nth-of-type(4){
+    padding: 40px 0;
+}
+.clothes ul li:nth-of-type(1){
+    border-right:1px solid #DDDDDD;
+    border-bottom:1px solid #DDDDDD;
+}
+.clothes ul li:nth-of-type(2){
+    border-bottom:1px solid #DDDDDD;
+}
+.clothes ul li:nth-of-type(6){
+    border-right:1px solid #DDDDDD;
+    border-top:1px solid #DDDDDD;
+}
+.clothes ul li:nth-of-type(7){
+    border-top:1px solid #DDDDDD;
+}
+.group{
+    width: 1153px;
+    margin: 40px auto 0;
+}
+.group1{
+    width: 550px;
+    float: left;
+}
+.group1 p{
+    margin-bottom: 52px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #555555;
+    text-align: right;
+}
+.group1 ul li span{
+    display: inline-block;
+    width: 64px;
+    height: 70px;
+    margin-right: 35px;
+    color: #C83636;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+    background-image: url(../images/team/sc_bg.jpg);
+    margin-bottom: 22px;
+}
+.group1 ul li div{
+    line-height: 30px;
+    border-bottom: 1px solid #DDDDDD;
+    font-size: 15px;
+    color: #555555;
+    width: 451px;
+    float: right;
+}
+.group1 ul li:nth-of-type(1) div{
+    padding-bottom: 18px;
+}
+.group1 ul li:nth-of-type(2) div{
+    padding-bottom: 14px;
+}
+.group1 ul li:nth-of-type(3) div{
+    padding-bottom: 14px;
+    margin: 0;
+}
+.group2{
+    width: 550px;
+    float: right;
+}
+.group2 p{
+    margin-bottom: 52px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #555555;
+    text-align: left;
+}
+.group_show{
+    width: 499px;
+    height: 250px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.group_hide{
+    width: 1010px;
+    height: 250px;
+    position: absolute;
+    left: 0px;
+}
+.group_hide ul{
+    width: 497px;
+    height: 249px;
+    border: 1px solid #DDDDDD;
+    border-bottom: none;
+}
+.group_hide .ul1{
+    float: left;
+}
+.group_hide .ul2{
+    float: right;
+}
+.group_hide ul li{
+    float: left;
+    width: 165px;
+    height: 82px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.group_hide ul li:nth-of-type(2),.group_hide ul li:nth-of-type(5),.group_hide ul li:nth-of-type(8){
+    border-right: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+}
+.group_btn{
+    float: right;
+    width: 42px;
+    height: 250px;
+}
+.group_btn div{
+    height: 124px;
+    background-color: #ECEBEB;
+}
+.group_btn div:hover{
+    background-color: rgb(200, 54, 54);
+}
+.group_btn div img{
+    margin: 50px 15px;
+}
+.custom_process{
+    width: 1153px;
+    height: 105px;
+    margin: 60px auto 0;
+    background-image: url(../images/team/banner.png);
+    padding-top: 216px;
+}
+.custom_process ul{
+    width: 100%;
+    padding: 0 53px;
+}
+.custom_process ul li{
+    width: 115px;
+    float: left;
+    margin: 0 47px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.consult{
+    width: 1153px;
+    margin: 80px auto 0px;
+    padding-bottom: 60px;
+}
+.consult .sult_tltle{
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    height: 66px;
+    line-height: 67px;
+    margin-bottom: 30px;
+}
+label{
+    font-size: 16px;
+    color: #555555;
+}
+.input1{
+    width: 400px;
+    height: 28px;
+    padding: 5px 10px;
+    border: 1px solid #DDDDDD;
+    background-color: #D7DDD8;
+}
+.cheak{
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+textarea{
+    width: 1004px;
+    height: 92px;
+    padding: 5px 10px;
+    border: 1px solid #DDDDDD;
+    background-color: #D7DDD8;
+}
+.input3{
+    width: 128px;
+    height: 28px;
+    padding: 5px 10px;
+    border: 1px solid #DDDDDD;
+    background-color: #D7DDD8;
+}
+.consult .button{
+    margin: 64px auto 55px;
+    background-color: #C83636;
+    width: 232px;
+    height: 45px;
+    border-radius: 3px;
+    line-height: 48px;
+    text-align: center;
+}
+.button a{
+    font-size: 16px;
+    color: #FFFFFF;
+}
