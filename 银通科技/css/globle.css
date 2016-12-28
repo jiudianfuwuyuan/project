@@ -1,0 +1,224 @@
+@charset "utf-8";
+a,
+a:hover {
+    text-decoration: none
+}
+
+.font-one,
+body {
+    font-family: Arial, "Microsoft YaHei"
+}
+
+a,
+abbr,
+address,
+article,
+aside,
+audio,
+blockquote,
+body,
+canvas,
+caption,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+html {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+li,
+ol,
+ul {
+    list-style: none
+}
+
+b,
+strong {
+    font-weight: 700
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption,
+td,
+th {
+    text-align: left;
+    font-weight: 400
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+a {
+    vertical-align: baseline;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease
+}
+
+a:active,
+a:focus,
+a:hover {
+    outline: 0
+}
+
+body {
+    font-size: 12px;
+    -ms-word-break: break-all;
+    -webkit-word-break: break-all;
+    -moz-word-break: break-all;
+    word-break: break-word;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background: #fff;
+    color: #333
+}
+
+.border-box,
+.border-box-group,
+.border-box-group *,
+.border-box-group::after,
+.border-box-group::before,
+.border-box::after,
+.border-box::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.content-box,
+.content-box-group,
+.content-box-group *,
+.content-box-group::after,
+.content-box-group::before,
+.content-box::after,
+.content-box::before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+.font-two {
+    font-family: arial, 'Hiragino Sans GB', \5b8b\4f53, sans-serif
+}
+
+.clear {
+    clear: both
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    content: ''
+}
+
+.none {
+    display: none
+}
+
+.border-none {
+    border: none!important
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.glo-a {
+    color: #0085d0
+}
+
+.glo-a:hover {
+    color: #8dc11e
+}
