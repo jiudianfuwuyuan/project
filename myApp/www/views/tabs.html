@@ -1,0 +1,21 @@
+<ion-view view-title="故事列表">
+    <ion-content>
+        <ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()"></ion-refresher>
+        <ion-list ng-repeat="line in lines">
+            <a class="item item-thumbnail-right" ui-sref="detail({id:line.id})">
+                <img src="{{line.img}}">
+                <h2 style="padding-top:10px">{{line.title}}</h2>
+                <p>{{line.summary}}</p>
+                <p>{{line.time}}</p>
+            </a>
+        </ion-list>
+        <ion-infinite-scroll on-infinite="loadMore()" distance="1%"></ion-infinite-scroll>
+    </ion-content>
+    <div class="bar bar-footer bar-positive">
+        <div class="dibu">
+            <div class="tan"><a href="javascript:"><span class="ion-forward"></span><p>分享</p></a></div>
+            <div class="tan"><a href="javascript:"><span class="ion-android-star"></span><p>收藏</p></a></div>
+            <div class="tan"><a href="javascript:"><span class="ion-more"></span><p>更多</p></a></div>
+        </div>
+    </div>
+</ion-view>

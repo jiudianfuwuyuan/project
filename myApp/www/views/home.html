@@ -1,0 +1,40 @@
+<ion-view view-title="故事类型" hide-back-button="true">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="secondary">
+        <button class="button button-small icon-left icon ion-plus-round button-icon" ng-click="openPopover($event)"></button>
+    </ion-nav-buttons>
+    <ion-content>
+        <ion-list id="genre" ng-repeat="new in news">
+            <a class="item item-thumbnail-left" href="#/tabs/{{new.id}}">
+                <h2>{{new.name}}</h2>
+            </a>
+        </ion-list>
+    </ion-content>
+    <script id="popover" type="text/ng-template">
+        <ion-popover-view>
+            <ion-list>
+                <ion-item class="item-icon-left">
+                    <span class="icon ion-ios-camera"></span>截屏
+                </ion-item>
+                <ion-item class="item-icon-left">
+                    <span class="icon ion-ios-pricetag"></span>书签
+                </ion-item>
+                <ion-item class="item-icon-left">
+                    <span class="icon ion-ios-lightbulb"></span>护眼模式
+                </ion-item>
+                <ion-item class="item-icon-left">
+                    <span class="icon ion-ios-download"></span>下载
+                </ion-item>
+            </ion-list>
+        </ion-popover-view>
+    </script>
+    <div class="bar bar-footer bar-positive">
+        <div class="dibu">
+            <div class="tan"><a href="javascript:"><span class="ion-forward"></span><p>分享</p></a></div>
+            <div class="tan"><a href="javascript:"><span class="ion-android-star"></span><p>收藏</p></a></div>
+            <div class="tan"><a href="javascript:"><span class="ion-more"></span><p>更多</p></a></div>
+        </div>
+    </div>
+</ion-view>

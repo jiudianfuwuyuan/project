@@ -1,0 +1,84 @@
+@charset "utf-8";
+#vs1,#vs2,#vs3{
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+#vs1{
+    background-image: url(../img/1.png);
+}
+#vs2{
+    background-image: url(../img/2.png);
+}
+#vs3{
+    background-image: url(../img/3.png);
+}
+h1{
+    text-align: center;
+    padding: 28vh 0 5vh;
+}
+.ion-ios-book{
+    font-size: 100px;
+    text-align: center;
+    color: sandybrown;
+}
+.bao{
+    width: 90px;
+    margin: 60vh auto 0;
+}
+#kaishi{
+    border-color: #387EF5;
+    color: #387EF5;
+}
+h3{
+    text-align: center;
+    padding-top: 10vh;
+}
+.summary{
+    padding: 5vw;
+    text-indent: 2em;
+}
+#genre .list{
+    height: 50px;
+}
+#genre .list .item{
+    padding: 15px 20px;
+}
+#genre .list .item:last-child{
+    border-bottom: none;
+}
+h4{
+    text-align: center;
+}
+#xiang{
+    background-image: url(../img/4.jpg);
+    background-size: 100% 100%;
+}
+.popover{
+    height: 100px;
+}
+.dibu{
+    width: 100%;
+}
+.tan{
+    float: left;
+    width: 33%;
+    height: 33px;
+    text-align: center;
+}
+.tan a span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 -5px;
+    font-size: 26px;
+}
+.tan a{
+    color: white;
+    text-decoration: none;
+}
+.tan a p{
+    margin-top: -5px;
+    font-size: 15px;
+}
